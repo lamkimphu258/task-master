@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         User::factory()
-            ->count(1_000)
+            ->count(10)
             ->has(Task::factory()->count(100))
             ->create();
     }

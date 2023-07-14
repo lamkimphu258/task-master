@@ -12,11 +12,18 @@ class Index extends Component
 
     public function mount()
     {
-        $this->tasks = Task::where('user_id', auth()->user()->id)->get();
+        $this->tasks = Task::where('user_id', auth()->user()->id)
+            ->orderBy('created_at', 'desc')
+            ->get();
     }
 
     public function render()
     {
         return view('livewire.task.index', ['tasks' => $this->tasks]);
+    }
+
+    public function delete($id)
+    {
+        Task::where('id', $id)->delete();
     }
 }
