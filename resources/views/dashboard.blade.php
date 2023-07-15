@@ -8,8 +8,10 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <h2 class="p-6 text-center font-bold text-4xl text-gray-900 dark:text-gray-100 underline">
-                Your task today
+                Create New Task
             </h2>
+            @livewire('task.create')
+
             @livewire('task.index')
         </div>
     </div>

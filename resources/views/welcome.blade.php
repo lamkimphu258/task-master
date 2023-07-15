@@ -7,10 +7,6 @@
 
     <title>Laravel</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
@@ -37,7 +33,7 @@
 
             <div class="mt-16">
                 <div class="grid grid-cols-1">
-                    <a href="https://laravel.com/docs" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
+                    <div class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
                         <div>
                             <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Task Master</h2>
 
@@ -45,7 +41,7 @@
                                 Task master is an application that help you to master your task. What are you waiting for? Let's get started.
                             </p>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>

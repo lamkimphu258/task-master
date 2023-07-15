@@ -18,7 +18,8 @@ class TaskFactory extends Factory
     {
         return [
             'title' => fake()->text(255),
-            'is_finished' => rand(0, 1)
+            'is_finished' => false, 
+            'created_at' => fake()->dateTimeThisMonth(),
         ];
     }
 }
